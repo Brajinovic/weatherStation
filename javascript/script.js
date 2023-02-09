@@ -45,7 +45,7 @@ makeGetRequest(request);
 
 // API call
 function fire(){
-    let queryUrl = "http://api.openweathermap.org/geo/1.0/direct?q=" + document.getElementById("search").value + "&limit=5&appid=e294b9061d827c22079003024df76e9d";
+    let queryUrl = "https://api.openweathermap.org/geo/1.0/direct?q=" + document.getElementById("search").value + "&limit=5&appid=e294b9061d827c22079003024df76e9d";
     
 
     axios.get(queryUrl).then(
